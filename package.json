@@ -1,0 +1,55 @@
+{
+  "name": "matematica",
+  "version": "0.0.1",
+  "description": "Matematica Web Site",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fabricio Taglialegna",
+  "license": "ISC",
+  "homepage": "http://www.matematicalivre.com",
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "es6-browserify": "0.0.7",
+    "font-awesome": "^4.3.0",
+    "global": "^4.3.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-front-matter": "^1.0.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-install": "^1.1.0",
+    "gulp-marked": "github:fabricioct/gulp-marked",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-rename": "^1.2.0",
+    "gulp-rimraf": "^0.2.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-streamify": "1.0.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.1",
+    "merge-stream": "^1.0.1",
+    "slug": "^0.9.1",
+    "swig": "^1.4.2",
+    "swig-extras": "0.0.1",
+    "through2": "^2.0.3",
+    "underscore": "^1.7.0",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^3.9.0",
+    "yargs": "^8.0.2"
+  },
+  "dependencies": {
+    "zepto-browserify": "^1.1.6-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabricioct/matematica.git"
+  },
+  "keywords": [
+    "matematica"
+  ],
+  "bugs": {
+    "url": "https://github.com/fabricioct/matematica/issues"
+  }
+}

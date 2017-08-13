@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% set page.title = "Blog" %}
+{% set page.nav = "blog" %}
+
+{% block content %}
+<div  class="pure-g pure-type">
+    <div class="pure-u-1 pure-u-md-1"> 
+        <div class="pure-menu ">
+              <ul class="pure-menu-list">
+               {% for post in site.posts %}
+                <li class="pure-menu-item"><a href="{{post.url}}" class="pure-menu-link"> <strong> {{ post.title }}</strong>
+                    <br/>
+                    <small>  <span>atualizado: {{ post.date | date('d/m/y')}}, Fabrício</span></small>
+                    </a>              
+                </li>
+               {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}

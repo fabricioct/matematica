@@ -1,0 +1,14 @@
+{% if testimonial.image %}
+    <img src="{{site.urlRoot}}images/testimonials/{{testimonial.image}}" alt="{{testimonial.author}}" />
+{% endif %}
+{% if testimonial.dog %}<h2>{{testimonial.dog}}</h2>{% endif %}
+{% if testimonial.issues %}<h3>{{testimonial.issues}}</h3>{% endif %}
+{{testimonial.content|safe}}
+<ul>
+    {% for signee in testimonial.signees %}
+        <li>{{signee}}</li>
+    {% endfor %}
+    {% if !testimonial.signees %}
+        <li>{{testimonial.author}}, {{testimonial.authorLocation}}</li>
+    {% endif %}
+</ul>

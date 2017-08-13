@@ -1,0 +1,21 @@
+{% set page.nav = "journal" %}
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="pure-g pure-type">
+    <div class="pure-u-1 pure-u-md-1"> 
+        <h3>{{ page.description }}</h3>
+        <h6>Atualizado: {{page.date|date('M j, Y')}} - versão beta.</h6>
+        {{content|safe}}    
+    </div>
+</div>
+{% if page.allowComments %}    
+<div class="pure-g pure-type">
+    <div class="pure-u-1 pure-u-md-1">
+        <a class="pure-button button-small button-secondary" id="comentario" href="#disqus_thread" >Exibir comentário</a>
+        <div id="disqus_thread" style="visibility:hidden;" ></div>      
+    </div>
+</div>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
+{% endblock %}

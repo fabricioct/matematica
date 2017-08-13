@@ -1,0 +1,424 @@
+/* Barra Menu */
+.custom-wrapper {
+    background-color: #333333;  
+    height: 2.5em;
+    overflow: hidden;
+ 
+}
+
+.custom-wrapper .custom-button-menu {
+    background:	#42b8dd !important; /* this is a light blue */  
+}
+
+.custom-wrapper .custom-button-menu:hover {
+    background:	#25ad38 !important; /* this is a light blue */  
+}
+
+.custom-wrapper .pure-button {
+    background:	#333;  
+}
+
+.custom-wrapper .pure-button:hover {
+    background:	#999;
+}
+
+.custom-wrapper .custom-menu {
+    float: right;
+    margin: .2em .2em 0;
+   
+}
+
+.custom-wrapper .custom-title{
+  
+    margin: .3em 1em;
+}
+
+.custom-wrapper .custom-menu-logo{
+    float: left;
+    margin: .3em .5em .3em .5em;
+
+}
+
+.custom-wrapper .pure-menu-horizontal {  
+    display: inline ;  
+}
+
+.custom-wrapper a {
+ color:#EFEFEF; 
+}
+
+.custom-wrapper .pure-menu-link:hover{
+    color:#333;
+ }
+
+.custom-wrapper.open {
+    height: 11em;
+}
+
+.custom-toggle {
+    width: 34px;
+    height: 34px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+.custom-toggle .bar {
+    background-color: #888888;
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 100px;
+    position: absolute;
+    top: 20px;
+    right: 7px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.custom-toggle .bar:first-child {
+    -webkit-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    transform: translateY(-6px);
+}
+
+.custom-toggle.x .bar {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.custom-toggle.x .bar:first-child {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+
+/*
+CSS Typography
+Simple CSS for Typography
+Author: Fabricio C.T.
+*/
+
+.pure-type{
+    margin: 0 auto;
+    padding: 0.6em;
+    max-width: 48em;
+}
+
+.pure-splash {
+  padding: 3em 1.6em;
+}
+
+.pure-splash-button {
+  font-size: 120%;
+}
+
+.pure-splash-head {
+  font-size: 300%;
+  margin: 0.3em 0 0;
+  line-height: 1.2em;
+  font-weight: bold;
+}
+
+.pure-splash-subhead {
+  color: #999;
+  font-weight: 300;
+  line-height: 1.4em;
+  margin: 0.5em 0;
+}
+
+.pure-splash-dark {
+  background: #222222;
+  color: #ffffff;
+}
+
+.pure-splash-dark .pure-splash-subhead {
+  color: #888888;
+}
+
+.pure-type .muted {
+  opacity: 0.48;
+}
+
+.pure-type .subtitle {
+  color: #999;
+}
+
+.pure-type .title {
+  margin-bottom: 0;
+}
+
+.pure-type .subtitle {
+  margin-top: 0;
+  font-weight: normal;
+}
+
+.pure-type .subhead {
+  color: #999;
+  text-transform: uppercase;
+  border-bottom: 2px solid #eee;
+  display: inline-block;
+}
+
+.pure-type h1,h2,h3,h4 {
+   font-weight: 600;
+   color: #333;   
+ }
+
+.pure-type h5,h6 {
+   line-height: .8em;
+}
+
+.pure-type hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+ } 
+
+.pure-type p {
+  margin-top: 0.5em;
+  line-height: 1.4em;
+}
+
+.pure-type p a {
+     text-decoration: none;
+     color: #42b8dd;
+ }
+
+.pure-type p a:hover {
+    text-decoration: underline;
+}
+
+.pure-type blockquote a {
+     text-decoration: none;
+     color: #42b8dd;
+ }
+
+.pure-type blockquote a:hover {
+    text-decoration: underline;
+}
+
+.pure-type blockquote {
+  font-family: "Georgia", serif;
+  color: #666;
+  font-style: italic;
+  line-height: 1.8em;
+  border-left: 5px solid #ddd;
+  padding-left: 1.5em;
+}
+
+.pure-type blockquote cite {
+  font-size: 80%;
+  display: block;
+  font-family: sans-serif;
+  font-style: normal;
+}
+
+.pure-type blockquote cite:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1px;
+  background: #ccc;
+  vertical-align: middle;
+  margin-right: 0.3em;
+}
+
+.pure-type code,
+.pure-type pre {
+  font-family: Consolas, 'Liberation Mono', Courier, monospace;
+  background: #f3f3f3;
+  font-size: 0.85em;
+  padding: 0.3em 0.5em;
+
+}
+
+.pure-type pre {
+  padding: 1em;
+}
+
+.pure-type code {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  margin: 0 0.2em;
+  white-space: nowrap;
+}
+
+.pure-type pre {
+  border: 1px solid #ddd;
+  border-radius: 0;
+  white-space: pre-line;
+}
+
+.pure-type pre code {
+  border: none;
+  white-space: pre-line;
+}
+
+.pure-type .pure-ribbon {
+  padding: 0.7em;
+  background: #eee;
+  border-radius: 0;
+}
+
+.pure-type .pure-ribbon-success {
+  background: #daf7de;
+  color: #0f4416;
+}
+
+.pure-type .pure-ribbon-success a {
+  color: #25ad38;
+}
+.pure-type .pure-ribbon-error {
+  background: #ffe7e7;
+  color: #670000;
+}
+
+.pure-type .pure-ribbon-error a {
+  color: #ff1b1b;
+}
+
+.pure-type .pure-ribbon-warn {
+  background: #fffbe4;
+  color: #645600;
+}
+
+.pure-type .pure-ribbon-warn a {
+  color: #b19700;
+}
+
+.pure-type dl dt {
+  font-weight: bold;
+  margin-top: 0.5em;
+}
+
+.pure-type dl dd {
+  margin: 0;
+  line-height: 1.6em;
+}
+
+.pure-type .list {
+  margin: 0.5em 0;
+  line-height: 1.6em;
+}
+
+.pure-type .plain {
+  list-style: none;
+}
+
+.pure-type .text-left {
+  text-align: left;
+}
+
+.pure-type .text-center {
+  text-align: center;
+}
+
+.pure-type .text-right {
+  text-align: right;
+}
+
+/* Custom buttom  */
+.pure-type .button-success,
+.pure-type .button-error,
+.pure-type .button-warning,
+.pure-type .button-secondary {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px #000000;
+}
+
+.pure-type .button-success {
+    background: #1cb841; /* this is a green */
+}
+
+.pure-type .button-error {
+    background: #ca3c3c; /* this is a maroon */
+}
+
+.pure-type .button-warning {
+    background:#df7514; /* this is an orange */
+}
+
+.pure-type .button-secondary {
+    background:#42b8dd; /* this is a light blue */
+}
+
+/* button  size */
+.pure-type .button-xsmall {
+    font-size: 70%;
+}
+
+.pure-type .button-small {
+    font-size: 85%;
+}
+
+.pure-type .button-large {
+    font-size: 110%;
+}
+
+.pure-type  button-xlarge {
+    font-size: 125%;
+}
+
+/* media  < 768px  */
+@media (max-width: 47.999em) 
+{
+  .pure-splash {
+    padding: 1.5em 0.8em;
+    text-align: center;
+  }
+  .pure-splash-head {
+    font-size: 200%;
+  }
+  .pure-splash-subhead {
+    font-size: 130%;
+  }
+  .pure-splash-button {
+    font-size: 100%;
+  }
+  .pure-type dl dd {
+    margin-left: 0;
+  }
+  .pure-type dl dt {
+    margin-top: 0.5em;
+  }
+  .pure-type blockquote {
+    margin: 0.5em 0;
+    line-height: 1.6em;
+  }
+   
+  .custom-toggle {
+          display: block;
+    }
+
+  .custom-wrapper .custom-menu {        
+      width: 100%;     
+    
+  }
+
+  .custom-wrapper .custom-menu  a{      
+      display: block;
+      margin: .3em 0 0 .4em;  
+      text-align: left;  
+
+  }
+
+  .custom-wrapper .custom-button-menu {
+      background:	#42b8dd; /* this is a light blue */
+      text-align: center !important;  
+    
+  }
+
+
+}

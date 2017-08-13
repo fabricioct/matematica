@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% set page.title = "Testimonials" %}
+{% set page.nav = "testimonials" %}
+
+{% block content %}
+    {% for testimonial in site.testimonials %}
+        <article id="testimonial-{{testimonial.author|lower|slugify}}">
+            {% include "include/_testimonial.html" %}
+        </article>
+    {% endfor %}
+{% endblock %}

@@ -33,4 +33,3 @@ Ferramenta de desenvolvimento utilizada [Visual Studio Code](https://code.visual
  A bibliotca  ``javascript`` [MathJax](https://www.mathjax.org/) foi uitlizad para rederizar fórmulas matemáticas.
 
 
-## Teste

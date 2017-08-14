@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Matemática Livre</title>
+	<link href="https://fabricioct.github.io/matematica/atom.xml" rel="self"/>
+	<link href="https://fabricioct.github.io/matematica"/>
+	<updated>2017-08-14T00:15:28.101Z</updated>
+	<id>https://fabricioct.github.io/matematica</id>
+	<author>
+		<name>Fabricio</name>
+		<email>fabriciocotta@gmail.com</email>
+	</author>
+	<entry>
+		<title>Sobre o projeto</title>
+		<link href="https://fabricioct.github.io/matematicaposts/sobre-projeto.html"/>
+		<updated>2016-10-13T00:00:00.000Z</updated>
+		<id>https://fabricioct.github.io/matematica</id>
+		<content type="html">&lt;p&gt;Matemática livre é projeto open source volta para disponibilizar conteudo de Matemática de forma rápida e fácil.&lt;/p&gt;
+</content>
+	</entry><entry>
+		<title>MDC máximo divisor comum.</title>
+		<link href="https://fabricioct.github.io/matematicaposts/mdc.html"/>
+		<updated>2016-10-12T00:00:00.000Z</updated>
+		<id>https://fabricioct.github.io/matematica</id>
+		<content type="html">&lt;p&gt;O máximo divisor comum entre dois ou mais números inteiros é o maior número inteiro divisor entre estes números.&lt;/p&gt;
+&lt;p&gt;$ mdc (6,12) = 6$&lt;br&gt;$mdc (6,12,15) = 3$&lt;/p&gt;
+&lt;p&gt;$
+\begin{array}{ c|c}
+6,12 &amp; 2 \\ 
+3, 6 &amp; 2 \\ 
+3, 3 &amp; 3 \\ 
+1, 1 &amp;    \\ 
+\end{array}
+$&lt;/p&gt;
+</content>
+	</entry><entry>
+		<title>MMC minimo múltiplo comum.</title>
+		<link href="https://fabricioct.github.io/matematicaposts/mmc.html"/>
+		<updated>2016-10-12T00:00:00.000Z</updated>
+		<id>https://fabricioct.github.io/matematica</id>
+		<content type="html">&lt;p&gt;MDC máximo divisor comum de dpois números&lt;/p&gt;
+</content>
+	</entry><entry>
+		<title>Equação do 1º grau</title>
+		<link href="https://fabricioct.github.io/matematicaposts/equacao-primeiro-grau.html"/>
+		<updated>2016-10-11T00:00:00.000Z</updated>
+		<id>https://fabricioct.github.io/matematica</id>
+		<content type="html">&lt;p&gt;É toda sentença matemática aberta que contem uma variável $x$ e exprime uma relação de igualdade, é dada pela equação:&lt;/p&gt;
+&lt;p&gt;$$ax+b=0$$&lt;/p&gt;
+&lt;h3 id=&quot;exemplos-&quot;&gt;Exemplos:&lt;/h3&gt;
+&lt;p&gt;01)(ML) O triplo de um número adicionado ao seu dobro resulta em 600. Qual é o número? &lt;/p&gt;
+&lt;h5 id=&quot;resolvendo-a-equa-o-&quot;&gt;Resolvendo a equação:&lt;/h5&gt;
+&lt;p&gt;$ número \ procurado :x \\ dobro \ número : 2x \\  triplo \ número : 3x $&lt;/p&gt;
+&lt;p&gt;$$
+\begin{align} 
+3x + 2x = 600 \\
+5x = 600 \\
+x = \frac{600}{5} \\
+x = 120 \\
+\end{align}
+$$&lt;/p&gt;
+</content>
+	</entry><entry>
+		<title>Equação do 2º grau</title>
+		<link href="https://fabricioct.github.io/matematicaposts/equacao-segundo-grau.html"/>
+		<updated>2016-10-11T00:00:00.000Z</updated>
+		<id>https://fabricioct.github.io/matematica</id>
+		<content type="html">&lt;p&gt;Equação do Função 2º grau ou Função Polinomia  l é a função real definida por:&lt;/p&gt;
+&lt;p&gt;$$f(x)=ax^2 + bx + c $$&lt;/p&gt;
+&lt;h2 id=&quot;zero-ou-raizes-da-fun-o&quot;&gt;Zero ou raizes da função&lt;/h2&gt;
+&lt;p&gt;Chama-se zeros ou raízes da função polinomial do 2º grau $f(x) = ax^2 + bx + c$ , $a \neq 0$, os números reais $x$ tais que $f(x) = 0$.&lt;/p&gt;
+&lt;p&gt;A quantidade de raízes reais de uma função quadrática depende do valor obtido para o radicando $\Delta = b^2-4ac$ ,  chamado discriminante, a saber:&lt;/p&gt;
+&lt;h3 id=&quot;formula-bhaskara&quot;&gt;Formula Bhaskara&lt;/h3&gt;
+&lt;p&gt;$$\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$ &lt;/p&gt;
+&lt;h3 id=&quot;observa-o-&quot;&gt;Observação:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;$\Delta &gt; 0 $, &lt;strong&gt;há duas&lt;/strong&gt; raízes reais e distintas.&lt;/li&gt;
+&lt;li&gt;$\Delta = 0 $, &lt;strong&gt;há uma&lt;/strong&gt; raiz real.&lt;/li&gt;
+&lt;li&gt;$\Delta &lt; 0 $, &lt;strong&gt;não há&lt;/strong&gt; raiz real.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;exerc-cios-&quot;&gt;Exercícios:&lt;/h2&gt;
+&lt;p&gt;1) O triplo do quadrado do número de filhos de Pedro é igual a 63 menos 12 vezes o número de filhos. Quantos filhos Pedro tem?&lt;/p&gt;
+&lt;p&gt;$
+\begin{align*} 
+2x - 5y          &amp;=  63 - 12x  \\ 
+3x^2 + 12x - 63  &amp;=   0
+\end{align*}
+$&lt;/p&gt;
+&lt;p&gt;(PUCCAMP) Se $v$ e $w$ são as raízes da equação $ax^2 + bx + c$, em que $a$ e $b$ são coeficientes reais, então $v2 + w2$ é igual a:&lt;br/&gt;
+a) $a2 - 2b$&lt;br&gt;b) $a2 + 2b$&lt;br&gt;c) $a2 – 2b2$&lt;br&gt;d) $a2 + 2b2$&lt;br&gt;e) $a2 – b2$&lt;/p&gt;
+</content>
+	</entry><entry>
+		<title>Exemplo de formulas</title>
+		<link href="https://fabricioct.github.io/matematicaposts/exemplos-formulas.html"/>
+		<updated>2016-10-10T00:00:00.000Z</updated>
+		<id>https://fabricioct.github.io/matematica</id>
+		<content type="html">&lt;h3 id=&quot;matriz&quot;&gt;Matriz&lt;/h3&gt;
+&lt;p&gt;$ \left[
+    \begin{array}{cc|c}
+      1&amp;2&amp;3\\
+      4&amp;5&amp;6
+    \end{array}
+\right]
+$&lt;/p&gt;
+&lt;h3 id=&quot;raiz&quot;&gt;Raiz&lt;/h3&gt;
+&lt;p&gt;$
+\begin{align}
+\sqrt{37} &amp; = \sqrt{\frac{73^2-1}{12^2}} \\
+ &amp; = \sqrt{\frac{73^2}{12^2}\cdot\frac{73^2-1}{73^2}} \\ 
+ &amp; = \sqrt{\frac{73^2}{12^2}}\sqrt{\frac{73^2-1}{73^2}} \\
+ &amp; = \frac{73}{12}\sqrt{1 - \frac{1}{73^2}} \\ 
+ &amp; \approx \frac{73}{12}\left(1 - \frac{1}{2\cdot73^2}\right)
+\end{align}
+$&lt;/p&gt;
+&lt;h3 id=&quot;sistema-de-equa-o&quot;&gt;Sistema de Equação&lt;/h3&gt;
+&lt;p&gt;$
+  f(n) =
+\begin{cases}
+n/2,  &amp; \text{if $n$ is even} \\
+3n+1, &amp; \text{if $n$ is odd}
+\end{cases}
+$
+&lt;br/&gt;
+$
+\left.
+\begin{array}{l}
+\text{if $n$ is even:}&amp;n/2\\
+\text{if $n$ is odd:}&amp;3n+1
+\end{array}
+\right\}
+=f(n)
+$
+&lt;br/&gt;
+$
+\begin{cases}
+2x-5y+z=1 \\
+3x-y+2z=3 \\
+4x-y-3z=-1
+\end{cases}
+$&lt;/p&gt;
+&lt;h3 id=&quot;alinhando-equa-o&quot;&gt;Alinhando equação&lt;/h3&gt;
+&lt;p&gt;$
+\begin{align*} 
+2x - 5y &amp;=  8 \\ 
+3x + 9y &amp;=  -12
+\end{align*}
+$&lt;/p&gt;
+&lt;h3 id=&quot;tabela&quot;&gt;Tabela&lt;/h3&gt;
+&lt;p&gt;$
+\newcommand\T{\Rule{0pt}{1em}{.3em}}
+\begin{array}{|c|c|}
+\hline X &amp; P(X = i) \T \\\hline
+  1 \T &amp; 1/6 \\\hline
+  2 \T &amp; 1/6 \\\hline
+  3 \T &amp; 1/6 \\\hline
+  4 \T &amp; 1/6 \\\hline
+  5 \T &amp; 1/6 \\\hline
+  6 \T &amp; 1/6 \\\hline
+\end{array}
+$&lt;/p&gt;
+&lt;h3 id=&quot;mdc&quot;&gt;MDC&lt;/h3&gt;
+&lt;p&gt;$
+\begin{array}{ c|c}
+6,12 &amp; 2 \\ 
+3, 6 &amp; 2 \\ 
+3, 3 &amp; 3 \\ 
+1, 1 &amp;    \\ 
+\end{array}
+$&lt;/p&gt;
+</content>
+	</entry><entry>
+		<title>Progressão aritimética</title>
+		<link href="https://fabricioct.github.io/matematicaposts/progressao-aritimetica.html"/>
+		<updated>2016-09-11T00:00:00.000Z</updated>
+		<id>https://fabricioct.github.io/matematica</id>
+		<content type="html">&lt;p&gt;A aritmética (da palavra grega ἀριθμός, arithmós[Nota 1], &quot;número&quot;) é o ramo da matemática que lida com números e com as operações possíveis entre eles. É o ramo mais antigo e mais elementar da matemática, usado por quase todos, seja em tarefas do cotidiano, em cálculos científicos ou de negócios. Matemáticos profissionais, por vezes, usam o termo &quot;aritmética superior&quot;[1] quando se refere a resultados mais avançados relacionados à teoria dos números, mas isso não deve ser confundido com a aritmética &lt;/p&gt;
+</content>
+	</entry><entry>
+		<title>Progressão geométrica</title>
+		<link href="https://fabricioct.github.io/matematicaposts/progressao-geometrica.html"/>
+		<updated>2016-09-11T00:00:00.000Z</updated>
+		<id>https://fabricioct.github.io/matematica</id>
+		<content type="html">&lt;p&gt;Progressão geométrica&lt;/p&gt;
+</content>
+	</entry><entry>
+		<title>Matriz</title>
+		<link href="https://fabricioct.github.io/matematicaposts/matriz.html"/>
+		<updated>2016-08-16T00:00:00.000Z</updated>
+		<id>https://fabricioct.github.io/matematica</id>
+		<content type="html">&lt;h2 id=&quot;matriz&quot;&gt;Matriz&lt;/h2&gt;
+&lt;p&gt;$$
+A_{m,n} = 
+ \begin{pmatrix}
+  a_{1,1} &amp; a_{1,2} &amp; \cdots &amp; a_{1,n} \\
+  a_{2,1} &amp; a_{2,2} &amp; \cdots &amp; a_{2,n} \\
+  \vdots  &amp; \vdots  &amp; \ddots &amp; \vdots  \\
+  a_{m,1} &amp; a_{m,2} &amp; \cdots &amp; a_{m,n} 
+ \end{pmatrix}
+$$&lt;/p&gt;
+&lt;h5 id=&quot;matriz&quot;&gt;Matriz&lt;/h5&gt;
+&lt;p&gt;$$ \left[
+    \begin{array}{cc|c}
+      1&amp;2&amp;3\\
+      4&amp;5&amp;6
+    \end{array}
+\right]
+$$&lt;/p&gt;
+</content>
+	</entry>
+</feed>
